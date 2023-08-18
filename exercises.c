@@ -58,8 +58,8 @@ int *filterEvenNumbers(int arr[], int size, int *newSize) {
         }
     }
   
-    int *arregloPares = (int *)malloc(cantidadPares * sizeof(int));
-    if (arregloPares == NULL) {
+    int *arrPares = (int *)malloc(cantidadPares * sizeof(int));
+    if (arrPares == NULL) {
         *newSize = 0;
         return NULL;
     }
