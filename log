@@ -1,1 +1,13 @@
 
+Fri 18 Aug 2023 02:31:07 PM UTC: 
+ exercises.c | 85 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 81 insertions(+), 4 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:70:13: error: ‘arrPares’ undeclared (first use in this function); did you mean ‘arregloPares’?
+   70 |             arrPares[nuevoIndice] = arr[i];
+      |             ^~~~~~~~
+      |             arregloPares
+exercises.c:70:13: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+afd78a3
